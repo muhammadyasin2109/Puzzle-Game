@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Script : MonoBehaviour {
+public class LevelManager : MonoBehaviour {
     
     public GameObject background;
     public GameObject Hewan;
@@ -21,6 +21,6 @@ public class Script : MonoBehaviour {
     }
     public void NextButtonClicked()
     {
-        Application.LoadLevel("Game");
+        Application.LoadLevel("GameScene");
     }
 }

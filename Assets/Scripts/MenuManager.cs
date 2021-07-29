@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class MenuManager : MonoBehaviour {
 
     public GameObject background;
     public GameObject about;
@@ -16,7 +16,7 @@ public class NewBehaviourScript : MonoBehaviour {
 
     public void playButtonClicked()
     {
-        Application.LoadLevel("AR game");
+        Application.LoadLevel("LevelSelection");
     }
     public void aboutButtonClicked()
     {
