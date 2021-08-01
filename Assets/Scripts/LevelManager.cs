@@ -21,6 +21,6 @@ public class LevelManager : MonoBehaviour {
     }
     public void NextButtonClicked()
     {
-        Application.LoadLevel("PuzzleGame");
+        Application.LoadLevel("Level-1");
     }
 }
