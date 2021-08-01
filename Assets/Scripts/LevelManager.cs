@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour {
@@ -10,17 +11,16 @@ public class LevelManager : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        background.SetActive(true);
-        Hewan.SetActive(false);
+
     }
 
-    public void PerkembangbiakanButtonClicked()
+    public void HewanButtonClicked()
     {
-        Hewan.SetActive(true);
-        background.SetActive(false);
+        SceneManager.LoadScene("HewanLevel-1");
     }
-    public void NextButtonClicked()
+
+    public void TumbuhanButtonClicked()
     {
-        Application.LoadLevel("Level-1");
+        SceneManager.LoadScene("TumbuhanLevel-1");
     }
 }

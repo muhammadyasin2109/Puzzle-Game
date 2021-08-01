@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelection.unity
     guid: 592d145d9b1627d409b96682f24ccfe1
   - enabled: 1
-    path: Assets/Scenes/Level-1.unity
+    path: Assets/Scenes/HewanLevel-1.unity
     guid: dbf51c1dd7580054ba6271f6e417e82c
+  - enabled: 1
+    path: Assets/Scenes/HewanLevel-2.unity
+    guid: f65fe37c1a4ba794da803cbdd4db0b90
+  - enabled: 1
+    path: Assets/Scenes/HewanLevel-3.unity
+    guid: c98ca275e6ea8be44acc177c919af001
   m_configObjects: {}
